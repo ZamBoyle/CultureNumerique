@@ -24,17 +24,16 @@
 ##1. Qu'est-ce qu'Internet pour vous ?
 
 ##2. Définition
-Internet est LE réseau mondial d'ordinateurs connectés entre eux. Il s'agit d'un réseau de réseaux. Ces ordinateurs sont connectés de différentes manières, câble réseau/ethernet, fibre optique, wifi, courant (cpl), lumière (li-fi), réseaux mobiles, satellites. Pour communiquer sur Internet, les ordinateurs utilisent le protocole TCP/IP (Transmission Control Protocol/Internet Protocol). Dans l'absolu on peut avoir une infinité de canaux de communication.
+Internet est LE réseau mondial d'ordinateurs connectés entre eux. Il s'agit d'un réseau de réseaux. Ces ordinateurs sont connectés de différentes manières, câble réseau/ethernet, fibre optique, wifi, courant (cpl), lumière (li-fi), réseaux mobiles, satellites. Pour communiquer sur Internet, les ordinateurs utilisent le protocole TCP/IP (Transmission Control Protocol/Internet Protocol). 
 
-Une fois la pile TCP/IP chargée pour la communication réseau. Il existe d'autres protocoles qui viennent s'ajouter à TCP/IP: FTP (File Transfert Protocol=transfert de fichiers), http, https, SMTP, dns, VoIP
+Une fois la pile TCP/IP chargée pour la communication réseau. Il existe d'autres protocoles qui viennent s'ajouter à TCP/IP: FTP (File Transfert Protocol=transfert de fichiers), http, https, SMTP, dns, VoIP, etc
 
-Mais pour fonctionner, tous ces protocoles reposent sur le protocole de communication d'internet qui s'appelle TCP/IP
-
+Mais pour fonctionner sur Internet, tous ces protocoles reposent sur le protocole de communication d'internet qui s'appelle TCP/IP. Les réseaux d'entreprises et voire votre réseau, utilise TCP/IP pour fonctionner. En effet, il est assez "facile" à mettre en place. Il existe d'autres protocoles qui ont eu leur succès par le passé: IPX/SPX (Novell), NetBEUI/NetBios (IBM), AppleTalk, etc.
 
 Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'internet utilisant le protocole http.
 
-
 ##3. Histoire
+Internet était à la base un projet militaire.
 ###3.1 Arpanet
 ###3.2 Internet
 ##4. Comment communique tout ce bazar ?

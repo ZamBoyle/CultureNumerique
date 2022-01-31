@@ -10,8 +10,9 @@
   - [3. Histoire](#3-histoire)
     - [3.1 Arpanet](#31-arpanet)
     - [3.2 Internet](#32-internet)
-    - [4](#4)
-- [Introduction au Wold Wide Web - WEB](#introduction-au-wold-wide-web-web)
+  - [4. Comment communique tout ce bazar ?](#4-comment-communique-tout-ce-bazar)
+- [](#)
+- [Introduction au World Wide Web (WWW)](#introduction-au-world-wide-web-www)
   - [1. Qu'est-ce qu'Internet pour vous ?](#1-quest-ce-quinternet-pour-vous-1)
   - [2. Définition](#2-définition-1)
   - [3. Histoire](#3-histoire-1)
@@ -24,16 +25,16 @@
 ##1. Qu'est-ce qu'Internet pour vous ?
 
 ##2. Définition
-Internet est LE réseau mondial d'ordinateurs connectés entre eux. Il s'agit d'un réseau de réseaux. Ces ordinateurs sont connectés de différentes manières, câble réseau/ethernet, fibre optique, wifi, courant (cpl), lumière (li-fi), réseaux mobiles, satellites. Pour communiquer sur Internet, les ordinateurs utilisent le protocole TCP/IP (Transmission Control Protocol/Internet Protocol). 
+Internet est LE réseau mondial d'ordinateurs connectés entre eux. Il s'agit d'un réseau de réseaux. Ces ordinateurs sont connectés de différentes manières, câble réseau/ethernet, fibre optique, wifi, courant (cpl), lumière (li-fi), réseaux mobiles, satellites, etc. Pour communiquer sur Internet, les ordinateurs utilisent le protocole TCP/IP (Transmission Control Protocol/Internet Protocol). 
 
 Une fois la pile TCP/IP chargée pour la communication réseau. Il existe d'autres protocoles qui viennent s'ajouter à TCP/IP: FTP (File Transfert Protocol=transfert de fichiers), http, https, SMTP, dns, VoIP, etc
 
-Mais pour fonctionner sur Internet, tous ces protocoles reposent sur le protocole de communication d'internet qui s'appelle TCP/IP. Les réseaux d'entreprises et voire votre réseau, utilise TCP/IP pour fonctionner. En effet, il est assez "facile" à mettre en place. Il existe d'autres protocoles qui ont eu leur succès par le passé: IPX/SPX (Novell), NetBEUI/NetBios (IBM), AppleTalk, etc.
+Mais pour fonctionner sur Internet, tous ces protocoles reposent sur le protocole de communication d'internet qui s'appelle TCP/IP. Les réseaux d'entreprises et voire votre réseau privé, utilise TCP/IP pour fonctionner. En effet, il est assez "facile" à mettre en place. Il existe d'autres protocoles qui ont eu leur succès par le passé: IPX/SPX (Novell), NetBEUI/NetBios (IBM), AppleTalk, etc.
 
-Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'internet utilisant le protocole http.
+Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'internet utilisant les protocoles http/https.
 
 ##3. Histoire
-Internet était à la base un projet militaire.
+Parler d'internet c'est aussi parler de son Internet était à la base un projet militaire. L'objectif à un réseau de faire transiter l'information même si l'un des éléments de ce réseau disparaît (bombe, déconnexion, etc). Cette pensée d'une topologie réseau fonctionnant 
 ###3.1 Arpanet
 ###3.2 Internet
 ##4. Comment communique tout ce bazar ?

@@ -20,11 +20,12 @@
 
 <!-- /code_chunk_output -->
 
-#Introduction à Internet
+#1. Introduction à Internet
+Nous allons parler d'Internet du point de vue du développeur. Nous n'allons pas entrer dans les détails du fonctionnement d'Internet. C'est un parti pris. L'essentiel pour nous est que vous compreniez: d'où on vient, comment il fonctionne en gros, la notion de port et quelques protocoles.
 
-##1. Qu'est-ce qu'Internet pour vous ?
+#1. Qu'est-ce qu'Internet pour vous ?
 
-##2. Définition
+#2. Définition
 Internet est LE réseau mondial d'ordinateurs connectés entre eux. Il s'agit d'un réseau de réseaux. Ces ordinateurs sont connectés de différentes manières, câble réseau/ethernet, fibre optique, wifi, courant (cpl), lumière (li-fi), réseaux mobiles, satellites, etc. Pour communiquer sur Internet, les ordinateurs utilisent le protocole TCP/IP (Transmission Control Protocol/Internet Protocol). 
 
 Une fois la pile TCP/IP chargée pour la communication réseau. Il existe d'autres protocoles qui viennent s'ajouter à TCP/IP: FTP (File Transfert Protocol=transfert de fichiers), http, https, SMTP, dns, VoIP, etc
@@ -33,11 +34,11 @@ Mais pour fonctionner sur Internet, tous ces protocoles reposent sur le protocol
 
 Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'internet utilisant les protocoles http/https.
 
-##3. Histoire
+#3. Histoire
 Parler d'internet c'est aussi parler de son Internet était à la base un projet militaire. L'objectif à un réseau de faire transiter l'information même si l'un des éléments de ce réseau disparaît (bombe, déconnexion, etc). Cette pensée d'une topologie réseau fonctionnant 
-###3.1 Arpanet
-###3.2 Internet
-##4. Comment communique tout ce bazar ?
+##3.1 Arpanet
+##3.2 Internet
+#4. Comment communique tout ce bazar ?
 Dans les cours de communication, le schéma de la communication suivante revient très souvent:
 1. Un émetteur émet un message.
 2. Le message est codé (dans une langue).

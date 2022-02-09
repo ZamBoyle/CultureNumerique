@@ -32,7 +32,7 @@ Une fois la pile TCP/IP chargée pour la communication réseau. Il existe d'autr
 
 Mais pour fonctionner sur Internet, tous ces protocoles reposent sur le protocole de communication d'internet qui s'appelle TCP/IP. Les réseaux d'entreprises et voire votre réseau privé, utilise TCP/IP pour fonctionner. En effet, il est assez "facile" à mettre en place. Il existe d'autres protocoles qui ont eu leur succès par le passé: IPX/SPX (Novell), NetBEUI/NetBios (IBM), AppleTalk, etc.
 
-Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'internet utilisant les protocoles http/https.
+Pour beaucoup de monde, Internet c'est Google. En disant Google, ils parlent du moteur de recherche. Mais le moteur de recherche est un des applications d'Internet utilisant les protocoles http/https.
 
 #3. Histoire
 Parler d'internet c'est aussi parler de son Internet était à la base un projet militaire. L'objectif à un réseau de faire transiter l'information même si l'un des éléments de ce réseau disparaît (bombe, déconnexion, etc). Cette pensée d'une topologie réseau fonctionnant 
@@ -67,7 +67,61 @@ Cette analogie est intéressante car correspond aussi à la communication entre 
 ##3. Histoire
 
 ##5. WEB
+###5.1 L'histoire
 
+1974: deux américains commencent à connecter des ordis via le réseau téléphone: l'internet protocole: ip. Les paquets prennent différents chemins: Commutation par paquets (paquets reconstruits)
+
+En 1989: on envoie des emails
+
+12 mars 1989
+Tim Berners-Lee propose à son supérieur Mike Sendall un projet de gestion des informations générales sur les accélérateurs et les expériences au CERN basé sur un système hypertexte distribué5. L'annotation de Sendall, qualifiant le projet de « vague mais prometteur » en est le point de départ car elle autorise Tim Berners-Lee à travailler dans ce domaine
+
+Au CERN il faut traiter une tonne de données et les scientifiques doivent partager leurs informations et les consulter.
+
+Robert Cailliau comprend où Tim veut aller.
+Utiliser l'hypertexte et Internet: Naviguer entre documents via Internet.
+Tim va créer le protocole HTTP, le HTML et l'URL (adresse unique).
+Ils reçoivent un budget et au bout de 2 ans.
+Ils trouvent un nom: Le World Wide Web.
+
+Ils n'arrivent pas à créer un navigateur entre l'homme et le SI, facile et universel (type d'ordinateur, modèle, marque)
+
+1993 (4 ans de trav): Ils vont prendre la décision d'ouvrir le logiciel du web au public de la disposition du monde. Aucun revenu mais Tim sait que s'il ne libère pas le web, il mourra. Ils l'envoient à une dizaine de personnes via mail. ==> Perte du contrôle du web par Robert Cailliau et Tim.
+22 avril 1993: Marc Endressens crée Mosaic. 206 sites internet mais le navigateur est téléchargé plus d'1 million de fois en quelques mois ==> Le Web explose.
+
+1 an et demi plus tard ce jeune étudiant Marc Endressens va avoir un 17 millions de dollars
+
+13 octobre 1994: Netscape
+1996: 90% des internautes l'utiliseront.
+
+Pensé dès le départ universel tout ordinateur !!!! Ont la conviction que leur invention peut changer le monde.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+====================================
+Interview
+========================================
+
+
+
+
+
+
+Depuis 20 ans une techno végète un peu.
+
+
+Le britannique Tim Berners-Lee et le belge Robert Cailliau.
 
 
 

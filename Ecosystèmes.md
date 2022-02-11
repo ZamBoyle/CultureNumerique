@@ -64,3 +64,12 @@ Elle consacre l'usage officiel du mot pour désigner la « science du traitement
 4) Le film, Imitation Game (2014): Film sur Alan Turing et sa machine Colossus qui cassa Enigma.
 5) Le film, Les pirates de la Silicon Valley (1999): Histoire de Microsoft & Apple (très intéressant).
 6) A Namur, le Nam-IP "Musée de l'informatique Pionnière de Belgique"
+
+
+
+
+Gabriel essaie de nous aider à faire manger Raphaël du gratin dauphinois. C'est pas gagné.
+Gabriel: wow tu sais Raphaël, tu vas devenir Hulk si tu en manges !
+Raphaël: Ah ouais ? Hulk, il ne mange que des trucs verts ! Haricots, brocolis, concombres.
+Raphaël: Donc comme Hulk, je n'en mange pas car le gratin dauphinois ce n'est pas vert.
+Nous: .... :-)

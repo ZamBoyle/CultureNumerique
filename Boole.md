@@ -1,0 +1,89 @@
+
+#Algèbre de Boole (1854)
+L'algèbre de boole ou calcul booléen est une branche des mathématiques qui traite de la logique en termes de variables, d'opérateurs et de fonctions sur les variables logiques. Dans notre cas, ça nous sera utile pour faire ce qu'on appelle des conditions. C'est à dire vérifier la valeur logique d'une variable ou expression dans nos programmes informatiques.
+
+#Exemple
+Dans un programme informatique on vous demande votre age et votre nationalité. Supposons que vous répondiez 22 ans et 'Belge'.
+A la question suivante "Votre age est-il plus grand que 18 ?" on ne peut répondre que "vrai" ou "faux". Ces deux valeurs s'appellent des valeurs booléennes qui sont soit 1 (vrai/true) ou 0 (faux/false). Ce qui revient en fait à dire que l'on parle de valeurs binaires:1 ou 0. ou un bit. Ici, c'est vrai car 22 > 18.
+
+#Opérateurs de comparaison
+L'exemple précédent pourrait s'écrire plus succinctement: Age > 18    Car dans un language de programmation on utilise des variables et non des phrases ainsi que des opérateurs de comparaison.
+Voici les opérateurs de comparaison les plus utilisés: 
+- d'égalité             ==
+- d'inégalité           <> ou bien != en python, C, C#, Java, PHP, etc...
+- strictement inférieur <
+- inférieur ou égal     <=
+- strictement supérieur >
+- supérieur ou égal     >=
+Ces opérateurs peuvent s'écrivent différemment d'un langage à un autre.
+
+#Opérateurs booléens ET / OU
+Maintenant, on se pose la question suivante:"Votre age est-il plus grand que 18 ET votre nationalité est-elle belge ?"
+On va la simplifier en utilisant des variables: Age > 18 ET Nationalite == 'Belge'
+Ici, il n'y a toujours qu'une seule réponse: "vrai" ou "faux". Mais pour répondre à cette question, il faut répondre à deux autres auparavant.
+1) Age > 18 ?   vrai car 22 > 18
+2) Nationalite == 'Belge' ?   vrai car 'Belge' = 'Belge' 
+Pour que la réponse soit vraie, il faut absolument que les deux soient vraies car on a utilisé l'opérateur ET:  Age > 18 ET Nationalite == 'Belge'
+Dans notre cas, la réponse est vraie: Age > 18 (VRAI) ET Nationalite == 'Belge' (VRAI) ça donne donc VRAI ET VRAI = VRAI ou en termes de bits: 1 ET 1 = 1
+
+#Tables de vérité
+Avec ce simple exemple on a en partie fait ce qu'on appelle une table de vérité pour l'opérateur logique ET.
+Une table de vérité, permet de préciser l'état de sortie (1 ou 0) en fonction des états d'entrée (1 ou 1).
+Supposons que:
+A = Age > 18
+B = Nationalite == 'Belge'
+Table de vérité de A ET B
+Si A = 0, B = 0 Alors A ET B = 0  (Par exemple Age = 17 et Nationalite='Français')
+Si A = 0, B = 1 Alors A ET B = 0  (Par exemple Age = 17 et Nationalite='Belge')
+Si A = 1, B = 0 Alors A ET B = 0  (Par exemple Age = 22 et Nationalite='Français')
+Si A = 1, B = 1 Alors A ET B = 1  (Par exemple Age = 22 et Nationalite='Belge')
+
+Pour une meilleure lisibilité, l'utilisation de parenthèses est parfois nécessaire lorsque l'on chaîne les conditions: (Age > 18) ET (Nationalite == 'Belge') ou encore (Age > 18 ET Nationalite == 'Belge'). Lorsque vous utiliserez l'opérateur ET mixé à l'opérateur OU, l'utilisation des parenthèses rendra la lecture plus aisée.
+
+Table de Vérité de A OU B
+Si A = 0, B = 0 Alors A OU B = 0  (Par exemple Age = 17 OU Nationalite='Français')
+Si A = 0, B = 1 Alors A OU B = 1  (Par exemple Age = 17 OU Nationalite='Belge')
+Si A = 1, B = 0 Alors A OU B = 1  (Par exemple Age = 22 OU Nationalite='Français')
+Si A = 1, B = 1 Alors A OU B = 1  (Par exemple Age = 22 OU Nationalite='Belge')
+
+Il existe un opérateur de négation NON (not en python ou ! dans les langages basés sur le C) qui inverse une condition. 
+Par exemple:
+A = Age > 18.
+La négation de A c'est NON A. Qui s'écrit NON (Age > 18) ou encore Age <= 18.
+On constate quelque chose d'intéressant. L'opérateur de comparaison > a changé avec la négation et est devenu <=.
+On peut déduire les autres aussi très facilement:
+A = Age == 18   la négation de A devient Age != 18
+A = Age <> 18   la négation de A devient Age == 18
+A = Age > 18    la négation de A devient Age <= 18
+A = Age >= 18   la négation de A devient Age < 18
+A = Age < 18    la négation de A devient Age >= 18
+A = Age <= 18   la négation de A devient Age > 18
+
+Il me fait bien rire lui avec ses négations. C'est un peu se chatouiller pour se faire rire non ? Encore un truc de matheux pour qu'on n'y pige plus rien ! :)
+Je vais vous donner un exemple et sa négation.
+Exemple: J'ai un formulaire qui enregistre les personnes qui ont l'âge de travailler.
+La condition pourrait s'écrire: Age >= 18 ET Age < 65
+Et un autre formulaire pour les autres. La condition inverse peut s'écrire ainsi: Age < 18 OU Age >=65. En employant l'opérateur NON la condition devient NON(Age >= 18 ET Age < 65) = Age < 18 OU Age >= 65
+Parfois, il est plus facile d'inverser des conditions très très très complexe avec l'opérateur NON.
+On remarque que:
+- l'inverse d'une expression comprenant un ET est une expression contenant un OU.
+- l'inverse d'une expression comprenant un OU est une expression contenant un ET.
+
+Table de Vérité NON(A ET B)
+Si A = 0, B = 0 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 17 ET Nationalite='Français') devient Age != 17 OU Nationalite != 'Francais'  )
+Si A = 0, B = 1 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 17 ET Nationalite='Belge')    devient Age != 17 OU Nationalite != 'Belge'     )
+Si A = 1, B = 0 Alors NON(A ET B) = NON A OU NON B = 1  (Par exemple NON(Age = 22 ET Nationalite='Français') devient Age != 22 OU Nationalite != 'Francais'  )
+Si A = 1, B = 1 Alors NON(A ET B) = NON A OU NON B = 0  (Par exemple NON(Age = 22 ET Nationalite='Belge')    devient Age != 22 OU Nationalite != 'Belge'     )
+
+Table de Vérité NON(A OU B)
+Si A = 0, B = 0 Alors NON(A OU B) = NON A ET NON B = 1  (Par exemple NON(Age = 17 OU Nationalite='Français') devient Age != 17 ET Nationalite != 'Francais'  )
+Si A = 0, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 17 OU Nationalite='Belge')    devient Age != 17 ET Nationalite != 'Belge'     )
+Si A = 1, B = 0 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Français') devient Age != 22 ET Nationalite != 'Francais'  )
+Si A = 1, B = 1 Alors NON(A OU B) = NON A ET NON B = 0  (Par exemple NON(Age = 22 OU Nationalite='Belge')    devient Age != 22 ET Nationalite != 'Belge'     )
+
+En programmation ET, OU et NON on les écrit:
+- python: ET = and, OU = or, NON = not
+- JavaScript, C, C#, PHP, Java: ET = &&, OU = ||, NON = !
+
+#Opérateurs logiques
+Un opérateur compare les opérandes et renvoie une valeur logique en fonction du résultat. Si la comparaison est vraie, la valeur logique retournée est true, si non la valeur est false.

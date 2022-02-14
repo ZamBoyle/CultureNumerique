@@ -1,8 +1,7 @@
 #Brève histoire de L'informatique
 
-
 # 1. Introduction
-Pour votre formation, il nous a semblé important d’aborder quelques notions d’informatique de base. Nous n’irons pas aussi loin que dans un graduat. Nous avons simplement envie de vous donner quelques concepts de base et un rapide historique de l’informatique.
+Pour votre formation, il nous a semblé important d’aborder quelques notions d’informatique de base. Nous n’irons pas aussi loin que dans un graduat. Nous avons simplement envie de vous donner quelques notions de base (binaire et algèbre de Boole) ainsi qu'un rapide historique de l’informatique.
 
 # 2. Définition de l’informatique
 Le mot informatique est composé des deux mots « informations » et automatique. Ce qui pourrait se traduire par : L’informatique c’est la science du traitement automatique et rationnel de l’information. Pour se faire on peut utiliser des machines pourvues de circuits logiques mais aussi de programmes informatiques. L'information étant prise au sens très large. 
@@ -10,6 +9,10 @@ Le mot informatique est composé des deux mots « informations » et automatique
 # 3. Histoire
 Il y a 20 000 ans l'Os d'Ishango: marques tout le long. Aurait pu servir à compter.
 Abaque (grecs, Romains, Égyptiens) / boulier compteur / boulier rudimentaire du Babyfoot :)
+
+Mais la première machine à calculer fut nos mains avec leurs doigts. C'est de là que vient très certainement notre système décimal.
+
+L'homme a utilisé de manière assez astucieuse ses doigts pour compter c'est la Dactylonomie. Nos enfants et parfois nous l'utilisons. Mais il est possible de compter fort parfois de grands nombres.
 
 ## 1642 la Pascaline
 Machine capable de calculer et de soustraire.

@@ -9,6 +9,14 @@ Le mot informatique est composé des deux mots « informations » et automatique
 # 3. Histoire
 Il y a 20 000 ans l'Os d'Ishango: marques tout le long. Aurait pu servir à compter.
 Abaque (grecs, Romains, Égyptiens) / boulier compteur / boulier rudimentaire du Babyfoot :)
+Abaque: est le nom donné à tout instrument mécanique plan facilitant le calcul.
+Il y a eu toute sorte d'Abaque:
+- compteur: Des cailloux
+- couvert de sable sur lequel on dessine: Abaque grec.
+- avec des boules coulissantes sur des tiges: bouliers compteurs.
+- formé d’un plateau et de réglettes mobiles, connu sous le nom de bâtons de Napier (1617 John Napier)
+
+- https://fr.wikipedia.org/wiki/Abaque_(calcul)
 
 Mais la première machine à calculer fut nos mains avec leurs doigts. C'est de là que vient très certainement notre système décimal.
 
@@ -21,13 +29,13 @@ Machine capable de calculer et de soustraire.
 Leibniz s'inspire de la Pascaline. Sa machine est capable de multiplier et diviser.
 
 ## 1801 l’invention du métier à tisser de Jospeh Marie Jacquard
- Elle est Basée sur des cartes perforées. Avant le motif du métier à tisser était figé. Il a eu l'idée d'avoir un métier à tisser "universel" qui pourrait tisser n'importe quel motif programmé sur ces cartes.
+ Elle est Basée sur des cartes perforées. Avant le motif du métier à tisser était figé. Il a eu l'idée d'avoir un métier à tisser "universel" qui pourrait tisser n'importe quel motif "programmé" sur ces cartes. Les trous et l'absence de trous indiquaient quand les "aiguilles" devaient se soulever.
 
 ## 1820 Machine différentielle de Charles Babbage (1791-1871)
 Il commence à construire sa machine à différences, inspiré par le métier à tisser de Jacquard. Il s'adjoint l'aide d'une jeune femme, Ada Lovelace (1815-1852), brillante mathématicienne qui l'aide à concevoir les « diagrammes » pour faire fonctionner la machine. Il semblerait que c'est Lady Ada qui conçoit le premier langage informatique pour la machine à différences de Babbage. On dit souvent que le premier programmeur était une femme et non un homme. :) Elle ne sera jamais terminée faute de moyens. Un de ses fils la termina et fit une démonstration  En 1991, On a pu la reconstruire à partir de ses plans et elle fonctionne parfaitement.
 
 ## 1854 Algèbre de Boole
-
+De 1844 à 1854, il crée une algèbre binaire, dite booléenne, n'acceptant que deux valeurs numériques : 0 et 1. Cette algèbre aura de nombreuses applications en téléphonie et en informatique
 
 ## 1890 Machine à cartes perforées
 Herman Hollerith (1860-1926) utilise une machine à cartes perforées pour le dépouillement du recensement américain (63 millions). Cette machine s'appelle la tabulatrice d'Hollerith. Elle se trouve en dépôt au Nam-Ip le musée de l'informatique de Namur. Il y a la perforatrice (40 informations par personne), la tabulatrice qui comptabilise et permet de classer (ouverture d'un tiroir)

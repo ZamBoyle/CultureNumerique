@@ -65,6 +65,7 @@ Définition ASCII
 Il s’agit d‘un encodage de caractères, l’American Standard Code for Information Interchange, précurseur américain de l’ISO 646 (qui définit des ensembles de caractères à l’international).
 ASCII est un code de 7 bits définissant 128 caractères. L’encodage se compose de 33 caractères non imprimables et 95 caractères imprimables.
 Il a ensuite été étendu sur 8 bits donnant ainsi 258 caractères. On peut faire apparaître les caractères en tapant son code ASCII. Il faut appuyer sur la touche ALT et taper un code ascii. Par exemple: ALT 65 donnera un A et ALT 82 un R.
+```
 Nombres (30–39)
 Lettres (65–90 / 97–122)
 Espace (32)
@@ -72,7 +73,7 @@ Espace (32)
 ╔════════════════╗
 ║ Joli cadre     ║
 ╠════════════════╣
-║ (c) Eqla 2021  ║
+║ (c) Eqla 2022  ║
 ╚════════════════╝
 ╣ (185)
 ║ (186)
@@ -83,3 +84,4 @@ Espace (32)
 ╠ (204)
 ═ (205)
 ╬ (206)
+```

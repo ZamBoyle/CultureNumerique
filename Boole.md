@@ -1,12 +1,12 @@
 
-#Algèbre de Boole (1854)
+# Algèbre de Boole (1854)
 L'algèbre de boole ou calcul booléen est une branche des mathématiques qui traite de la logique en termes de variables, d'opérateurs et de fonctions sur les variables logiques. Dans notre cas, ça nous sera utile pour faire ce qu'on appelle des conditions. C'est à dire vérifier la valeur logique d'une variable ou expression dans nos programmes informatiques.
 
-#Exemple
+# Exemple
 Dans un programme informatique on vous demande votre age et votre nationalité. Supposons que vous répondiez 22 ans et 'Belge'.
 A la question suivante "Votre age est-il plus grand que 18 ?" on ne peut répondre que "vrai" ou "faux". Ces deux valeurs s'appellent des valeurs booléennes qui sont soit 1 (vrai/true) ou 0 (faux/false). Ce qui revient en fait à dire que l'on parle de valeurs binaires:1 ou 0. ou un bit. Ici, c'est vrai car 22 > 18.
 
-#Opérateurs de comparaison
+# Opérateurs de comparaison
 L'exemple précédent pourrait s'écrire plus succinctement: Age > 18    Car dans un language de programmation on utilise des variables et non des phrases ainsi que des opérateurs de comparaison.
 Voici les opérateurs de comparaison les plus utilisés: 
 - d'égalité             ==
@@ -17,7 +17,7 @@ Voici les opérateurs de comparaison les plus utilisés:
 - supérieur ou égal     >=
 Ces opérateurs peuvent s'écrivent différemment d'un langage à un autre.
 
-#Opérateurs booléens ET / OU
+# Opérateurs booléens ET / OU
 Maintenant, on se pose la question suivante:"Votre age est-il plus grand que 18 ET votre nationalité est-elle belge ?"
 On va la simplifier en utilisant des variables: Age > 18 ET Nationalite == 'Belge'
 Ici, il n'y a toujours qu'une seule réponse: "vrai" ou "faux". Mais pour répondre à cette question, il faut répondre à deux autres auparavant.
@@ -26,7 +26,7 @@ Ici, il n'y a toujours qu'une seule réponse: "vrai" ou "faux". Mais pour répon
 Pour que la réponse soit vraie, il faut absolument que les deux soient vraies car on a utilisé l'opérateur ET:  Age > 18 ET Nationalite == 'Belge'
 Dans notre cas, la réponse est vraie: Age > 18 (VRAI) ET Nationalite == 'Belge' (VRAI) ça donne donc VRAI ET VRAI = VRAI ou en termes de bits: 1 ET 1 = 1
 
-#Tables de vérité
+# Tables de vérité
 Avec ce simple exemple on a en partie fait ce qu'on appelle une table de vérité pour l'opérateur logique ET.
 Une table de vérité, permet de préciser l'état de sortie (1 ou 0) en fonction des états d'entrée (1 ou 1).
 Supposons que:
@@ -85,5 +85,5 @@ En programmation ET, OU et NON on les écrit:
 - python: ET = and, OU = or, NON = not
 - JavaScript, C, C#, PHP, Java: ET = &&, OU = ||, NON = !
 
-#Opérateurs logiques
+# Opérateurs logiques
 Un opérateur compare les opérandes et renvoie une valeur logique en fonction du résultat. Si la comparaison est vraie, la valeur logique retournée est true, si non la valeur est false.

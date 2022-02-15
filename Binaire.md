@@ -1,4 +1,4 @@
-#1 . Le binaire
+# 1. Le binaire
 Le système binaire est le système de numérotation utilisant la base 2. On utilise deux chiffres pour le système binaire, le 0 et le 1. On les nomme couramment bit.
 En informatique le bit est en permanence utilisé dans les circuits de l'ordinateur, la mémoire, le microprocesseur. Il correspond à un état électrique: le courant passe (1), il ne passe pas (0). 
 Dans la base 10, on utilise les chiffres de 0 à 9. Dès qu'on arrive à 10, on atteint la base.
